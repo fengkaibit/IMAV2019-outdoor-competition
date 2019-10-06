@@ -1,5 +1,4 @@
 # IMAV2019-outdoor-competition
-IMAV2019 outdoor competition
 
 # 0. QGroundcontrol
 Set waypoints through QGroundcontrol, including takeoff and landing
