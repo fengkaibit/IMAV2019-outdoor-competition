@@ -1,0 +1,4 @@
+# config file
+
+# uart port name
+servo_port_name=/dev/ttyACM99

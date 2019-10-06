@@ -1,0 +1,7 @@
+<launch>
+	<node name="video_publish" pkg="video_publish" type="video_publish_node" output="screen" />
+	<node name="mailbox_detection" pkg="mailbox_detection" type="mailbox_detection_node" output="screen" />
+	<node name="landmark_detection" pkg="landmark_detection" type="landmark_detection_node" output="screen" />
+	<node name="uart" pkg="uart" type="servo_node" output="screen" />
+	<node name="delivery_node" pkg="delivery" type="delivery_node" output="screen" />
+</launch>

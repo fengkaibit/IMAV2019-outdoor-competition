@@ -1,0 +1,40 @@
+# config file
+
+# mailbox color,  0:red  1:blue  2:yellow
+mailbox_color=1
+
+# detect parameters
+red_min_area=500
+blue_min_area=2500
+yellow_min_area=4500
+
+max_aspect_ratio=1.5
+
+min_area_rate=0.85
+
+# whether to display images,  0:Fasle  1:True
+show_image=1
+
+# gray image to binary image threshold
+red_threshold=180
+blue_threshold=120
+yellow_threshold=100
+
+# HSV parameters(yellow)
+H_min=21
+S_min=61
+V_min=234
+H_max=43
+S_max=255
+V_max=255
+
+# whether to get mailbox gps,  0:Fasle  1:True
+write_gps=1
+
+# write gps path
+gps_path=/home/odroid/imav_2019_ws/src/imav_detection/mailbox_detection/config/mailbox_gps.txt
+
+rect_txt_path=/home/odroid/imav_2019_ws/src/imav_detection/mailbox_detection/config/rect.txt
+
+cir_txt_path=/home/odroid/imav_2019_ws/src/imav_detection/mailbox_detection/config/cir.txt
+

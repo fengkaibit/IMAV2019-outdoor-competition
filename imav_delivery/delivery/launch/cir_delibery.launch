@@ -1,0 +1,9 @@
+<launch>
+	<node name="video_publish" pkg="video_publish" type="video_publish_node" output="screen" />
+	<node name="video_capture" pkg="video_capture" type="video_capture_node" output="screen" />
+	<node name="mailbox_detection" pkg="mailbox_detection" type="mailbox_detection_node" output="screen" />
+	<node name="cir_landmark_detection" pkg="landmark_detection" type="cir_landmark_detection_node" output="screen" />
+	<node name="uart" pkg="uart" type="servo_node" output="screen" />
+	<node name="rc_servo_control" pkg="uart" type="rc_control_node" output="screen" />
+	<node name="test_waypoints" pkg="delivery" type="test_waypoints" output="screen" />
+</launch>

@@ -1,0 +1,36 @@
+# config file
+
+# offset y pix
+offset_y=20
+
+# takeoff relative altitude (m)
+takeoff_relative_altitude=6.0
+
+#target mailbox GPS
+mailbox.latitude=39.736081
+mailbox.longitude=116.164324
+
+# relative altitude (m)
+mailbox.relative_altitude=6.0
+
+# mailbox search time threshold (s)
+mailbox.search_time_thresh=30.0
+
+#target landing GPS
+landing.latitude=39.736113
+landing.longitude=116.164068
+
+# relative altitude (m)
+landing.relative_altitude=6.0
+
+# auto landing search time threshold (s)
+landing.search_time_thresh=30.0
+
+# Visual navigation PID
+kp_x=0.0004
+kp_y=0.0004
+max_v=0.5
+
+h_kp_x=0.0002
+h_kp_y=0.0002
+h_max_v=0.4

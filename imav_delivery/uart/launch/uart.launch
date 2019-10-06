@@ -1,0 +1,4 @@
+<launch>
+	<node name="servo_node" pkg="uart" type="servo_node" output="screen" />
+	<node name="rc_control_node" pkg="uart" type="rc_control_node" output="screen" />
+</launch>

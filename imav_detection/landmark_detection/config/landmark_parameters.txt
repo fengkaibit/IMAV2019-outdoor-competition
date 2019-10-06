@@ -1,0 +1,41 @@
+# config file
+
+# method to detect H, 0(svm), 1(knn)
+detect_method=1
+
+# method to get binary image, 0(gray -> binary), 1(blue HSV -> binary)
+binary_method=1
+
+# canny parameters
+canny_min=200
+canny_max=400
+
+# detect parameters
+min_area=100
+max_aspect_ratio=2
+
+# Hu match threshold (0-1)
+temp_similar_thresh=0.5
+
+# display images,  0:Fasle  1:True
+show_image=1
+
+# H txt path
+#H_txt_path=/home/odroid/imav_2019_ws/src/imav_detection/landmark_detection/config/H.txt
+H_txt_path=/home/odroid/imav_2019_ws/src/imav_detection/landmark_detection/config/H_dji.txt
+
+# cir txt path
+cir_txt_path=/home/odroid/imav_2019_ws/src/imav_detection/landmark_detection/config/cir.txt
+
+# svm model path
+svm_path=/home/odroid/imav_2019_ws/src/imav_detection/landmark_detection/config/h_4_2.xml
+
+# H temp txt
+#H_temp_txt=/home/odroid/imav_2019_ws/src/imav_detection/landmark_detection/config/Htemp.txt
+H_temp_txt=/home/odroid/imav_2019_ws/src/imav_detection/landmark_detection/config/Hdji_temp.txt
+
+# min diff thresh in H temp
+min_diff_thresh=1500
+
+# display the min diff in terminal, 0:Fasle  1:True
+show_min_diff=0
