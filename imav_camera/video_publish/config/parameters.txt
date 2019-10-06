@@ -1,0 +1,4 @@
+# config file
+
+# opencv VideoCapture port
+port_name=0

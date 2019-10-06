@@ -1,0 +1,17 @@
+# config file
+
+# save video frame rate
+frame_rate=30
+
+# save video frame width, height
+width=640
+height=480
+
+# videonum txt path
+videonum_txt_path=/home/odroid/imav_2019_ws/src/imav_camera/video_capture/config/videonum.txt
+
+# save video path
+save_video_path=/home/odroid/imav_2019_ws/src/imav_camera/video_capture/video/
+
+# display images,  0:Fasle  1:True
+show_image=1

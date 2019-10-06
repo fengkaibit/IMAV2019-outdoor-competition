@@ -1,0 +1,4 @@
+<launch>
+	<node name="video_publish" pkg="video_publish" type="video_publish_node" output="screen" />
+	<node name="video_capture" pkg="video_capture" type="video_capture_node" output="screen" />
+</launch>
